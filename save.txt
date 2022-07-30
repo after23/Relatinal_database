@@ -1,0 +1,3 @@
+pg_dump -cC --inserts -U freecodecamp salon > [name.sql]
+
+PSQL="psql --username=freecodecamp --dbname=salon -t --no-align -c"
